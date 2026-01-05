@@ -89,6 +89,7 @@ function App() {
                 backgroundColor: msg.role === 'user' ? '#e3f2fd' : '#f1f8e9',
                 maxWidth: '80%',
                 wordBreak: 'break-word',
+                whiteSpace: 'pre-wrap', // 保留换行符
               }}
             >
               {msg.content}
