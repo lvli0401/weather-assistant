@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "temp >= 30",
+    "advice": "高温预警！建议减少外出，多喝水，穿轻薄透气衣物，注意防暑降温。"
+  },
+  {
+    "condition": "temp <= 5",
+    "advice": "天气寒冷，注意保暖，可穿羽绒服、戴手套，老人小孩避免晨练。"
+  },
+  {
+    "condition": "text.includes('雨')",
+    "advice": "记得带伞或雨衣，路滑小心行走，避免涉水路段。"
+  },
+  {
+    "condition": "text.includes('晴') && temp >= 20 && temp <= 28",
+    "advice": "天气舒适，适合户外运动、郊游或晒太阳，记得涂抹防晒霜哦～"
+  },
+  {
+    "condition": "windScale >= 6",
+    "advice": "风力较大，注意防风，避免在广告牌或大树下停留。"
+  }
+]
