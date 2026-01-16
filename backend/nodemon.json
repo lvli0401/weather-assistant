@@ -1,0 +1,4 @@
+{
+  "ignore": ["vector_db.json"],
+  "ext": "js,json,env"
+}
